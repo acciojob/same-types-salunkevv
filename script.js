@@ -1,5 +1,15 @@
 function isSameType(value1, value2) {
   //your js code here
+	let ans1= typeof value1;
+	let ans2= typeof value2;
+	if(ans1 === ans2)
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
 }
 
 // do not change the code below.
